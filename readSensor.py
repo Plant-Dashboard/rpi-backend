@@ -53,7 +53,7 @@ def Monitor():
         while True:
             print("Reading #{0} ".format(readingCount))
             humidity, temp = readDHT11()
-            print("Humidity: {1} %".format(readingCount, int(humidity)))
+            print("Humidity: {0} %".format(int(humidity)))
             print("Temperature: {0} F\n".format(int(temp)))
             schedule.run_pending()
             readingCount = readingCount + 1
