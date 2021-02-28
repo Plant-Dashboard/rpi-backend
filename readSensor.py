@@ -1,4 +1,3 @@
-#!/bin/bash
 from datetime import datetime
 import Adafruit_DHT
 import schedule
